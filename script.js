@@ -23,13 +23,14 @@ function solution (A){
             
       }
       if(mostAppearance > len/2){
-        return A[tmp]
+        
+        return A.indexOf(parseInt(tmp))
       }else{
         return -1
       }
     
 }
-console.log(solution([1, 1, 2, 1, 3 ]))
+console.log(solution([0,1,5,5,5,5]))
 
 
 
